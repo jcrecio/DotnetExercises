@@ -11,7 +11,7 @@
 // Write an efficientalgorithm for the following assumptions:
 // N is an integer within the range[0..1, 000, 000];
 
-namespace DotnetExercises
+namespace DotnetExerciseSolutions
 {
     public class ParenthesisBalance
     {
@@ -28,7 +28,7 @@ namespace DotnetExercises
 
                 else if (character == ')')
                 {
-                    if (balance == 0) return 0;
+                    if (balance == 0) return false;
                     balance -= 1;
                 }
             }
